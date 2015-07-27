@@ -1,0 +1,18 @@
+%% -*- erlang -*-
+{application, sampler,
+ [
+  {description, "Erlang App Skeleton"},
+  {vsn, git},
+  {registered, []},
+  {modules, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  lager,
+                  clique
+                 ]},
+  {mod, { sampler, []}},
+  {env, []}
+ ]}.
