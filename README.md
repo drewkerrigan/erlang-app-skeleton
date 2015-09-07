@@ -25,6 +25,12 @@ make rel
 
 ### Testing
 
+#### Run the sampler application
+
+```
+./rel/sampler/bin/sampler start
+```
+
 #### Clique Based CLI
 
 Get the status
